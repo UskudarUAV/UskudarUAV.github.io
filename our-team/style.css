@@ -1,0 +1,59 @@
+
+.mpcard {
+    cursor: pointer ;
+  }
+  .mpcard:hover {
+    filter: brightness(75%);
+    transition: 300ms all ;
+  }
+
+@media only screen and (max-width : 500px) {
+    .ct {
+        display: none ;
+    }
+    .mpcard {
+        filter: brightness(85%);
+    }
+}
+
+.card a {
+  color : white !important ;
+}
+
+.card a:hover {
+  color: white !important ;
+}
+
+.card {
+  background: linear-gradient(45deg,#0081cc,  #3cbd00);
+  color : white !important;
+  border: none !important;
+  padding: 10px !important;
+  width: 100% !important;
+  min-height: 200px;
+  height: auto ;
+  cursor:pointer;
+}
+
+.card-body {
+    background: #323232;
+    color : white !important;
+    border: none !important;
+    padding: 10px !important;
+    width: 100% !important;
+    height: auto;
+    cursor:pointer;
+    
+  }
+
+.card:nth-child(even) {
+  background: linear-gradient(45deg,#0081cc, #bf1bc5) !important;
+}
+
+.profile {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover; 
+    object-position: 0% 16%; 
+    border-radius: 8px;
+}

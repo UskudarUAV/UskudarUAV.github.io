@@ -49,14 +49,15 @@ https://templatemo.com/tm-581-kind-heart-charity
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #2541ae;
+  --primary-color:                #2d48b4;
   --secondary-color:              #5a6f80;
   --section-bg-color:             #f0f8ff;
-  --site-footer-bg-color:         #44525d;
+  --site-footer-bg-color:         #83929e;
   --custom-btn-bg-color:          #597081;
   --custom-btn-bg-hover-color:    #5bc1ac;
   --dark-color:                   #000000;
   --p-color:                      #717275;
+  --h3-color:                      #8d919a;
   --border-color:                 #e9eaeb;
 
   --body-font-family:             'Metropolis', sans-serif;
@@ -92,11 +93,14 @@ body {
 -----------------------------------------*/
 
 h2,
-h3,
 h4,
 h5,
 h6 {
   color: var(--dark-color);
+}
+
+h3 {
+  color: var(--h3-color);
 }
 
 h1,
